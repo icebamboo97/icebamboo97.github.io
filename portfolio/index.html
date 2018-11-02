@@ -1,0 +1,258 @@
+---
+layout: default
+title: "Portfolio"
+description: "What I did"
+header-img: "img/portfolio-bg.jpg"
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" id="tag-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<head>
+
+    <style type="text/css">
+        p {
+            font-size: 15px;
+            margin-top: 5px;
+            text-align: justify;
+            line-height: 25px;
+        }
+    </style>
+
+</head>
+
+<!-- Language Selector -->
+<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+    <select onchange="onLanChange(this.options[this.options.selectedIndex].value)">
+        <option value="0" selected> 中文 </option>
+        <option value="1"> English </option>
+    </select>
+    <div class="row">
+        </br>
+    </div>
+</div>
+<!-- Chinese Version -->
+<div class="zh">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>项目</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <ul class="list-group">
+                                
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12 center">
+                                            <img src="/img/in-portfolio/monopoly-online.jpg" class="img-thumbnail">
+                                        </div>
+                                        <div class="col-md-8 col-xs-12 post-container">
+                                            <p><b>大富翁Online</b></p>
+                                            <p><i>开发工具：Unity3D, C#</i></p>
+                                            <p>软件工程概论课程大作业。“大富翁Online”是根据大富翁棋改编的P2P的多人联网游戏。游戏中支持最多4人联网游戏，共有六个游戏角色可供选择，支持使用点数、购买点卡(共八种点卡)、买卖楼房等功能。凭借该游戏获得<b>2012学年《软件工程概论》课程最佳小组称号</b>。</p> 
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul> -->
+                </div>
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>文章</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-12 center">
+                                    <img src="/img/in-portfolio/magictoon.jpg" class="img-thumbnail">
+                                </div>
+                                <div class="col-md-8 col-xs-12 post-container">
+                                    <p>
+                                        <b>MagicToon: A 2D-to-3D Creative Cartoon Modeling System with Mobile AR</b></br>
+                                        冯乐乐，杨旭波，肖双九</br>
+                                        <i>IEEE Virtual Reality 2017</i>
+                                    </p>
+                                    <p>本文提出了MagicToon, 一个基于移动增强现实环境的交互式建模系统，让儿童可以从他们绘制的二维手绘图中创建三维卡通场景。我们的系统由两部分组成：一个二维到三维的自动化建模系统，以及一个交互式的模型编辑系统。结果显示，相比于传统的基于草图的建模系统，本系统更加易于使用；相比于增强现实绘本系统来说，本系统不局限于提前制作好的三维模型，可以更加充分地发挥儿童的创造力。</p>
+                                    <a href="http://candycat1992.github.io/2017/01/18/magictoon/" class="btn btn-default btn-sm" role="button">Project Page</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul> -->
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- English Version -->
+<div class="en">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Publications</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-12 center">
+                                    <img src="/img/in-portfolio/magictoon.jpg" class="img-thumbnail">
+                                </div>
+                                <div class="col-md-8 col-xs-12 post-container">
+                                    <p>
+                                        <b>MagicToon: A 2D-to-3D Creative Cartoon Modeling System with Mobile AR</b></br>
+                                        Lele Feng, Xubo Yang and Shuangjiu Xiao</br>
+                                        <i>IEEE Virtual Reality 2017</i>
+                                    </p>
+                                    <p>We present MagicToon, an interactive modeling system with mobile augmented
+                                        reality (AR) that allows children to build 3D cartoon scenes creatively from
+                                        their own 2D cartoon drawings on paper. Our system consists of two major
+                                        components: an automatic 2D-to-3D cartoon model creator and an interactive
+                                        model editor to construct more complicated AR scenes. The results of our user
+                                        study have shown that our system is easier to use compared with traditional
+                                        sketch-based modeling systems and can give more play to children's innovations
+                                        compared with AR coloring books.</p>
+                                    <a href="http://candycat1992.github.io/2017/01/18/magictoon/" class="btn btn-default btn-sm"
+                                        role="button">Project Page</a>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Projects</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="list-group">
+                        < <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-12 center">
+                                    <img src="/img/in-portfolio/monopoly-online.jpg" class="img-thumbnail">
+                                </div>
+                                <div class="col-md-8 col-xs-12 post-container">
+                                    <p><b>Richman Online</b></p>
+                                    <p><i>Development Tools: Unity3D, C#</i></p>
+                                    <p>The course project for Introduction to Software Engineering. <i>Richman Online</i>
+                                        is a P2P game, with which we obtained the title of “Top Venue” in this course
+                                        in 2012.</p>
+                                </div>
+                            </div>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    function onLanChange(index) {
+        if (index == 0) {
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        } else {
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        }
+    }
+    onLanChange(0);
+</script>
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hux - Timeline</title>
+    <link rel="stylesheet" type="text/css" href="css/timeline.css" />
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+    <div class="container" style="margin:0;padding:0;width:100%;">
+        <header>
+            <img width="175" height="175" style="border-radius:50%;" src="/img/avatar-hux-ny.jpg">
+            <h1>Hux</h1>
+        </header>
+        <div class="main">
+            <ul class="cbp_tmtimeline">
+                <li>
+                    <div class="cbp_tmlabel">
+                        <h2 id="boxoffice">Yanshuo.io (演说.io)</h2>
+                        <time>2016.06</time>
+                        <img src="images/work-yanshuo.jpg">
+                        <ul>
+                            <li>
+                                "Yanshuo.io" is an online full-featured presentation software to create Web-based
+                                slides which are linkable, sharable, cross-platform and without delivery friction. It
+                                differentiate from traditional presentation tools such as Powerpoint and Keynote due to
+                                its web-friendly and its strong belief in Web.
+                            </li>
+                            <li class="skill">
+                                <span><b>JS</b></span>
+                                <span class="i-react"></span>
+                                <span class="link"><a target="_blank" href="https://yanshuo.io">Try it</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
