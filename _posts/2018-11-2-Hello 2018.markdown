@@ -12,13 +12,13 @@ published: true
 > “Yeah It's on. 很高兴你在看我。”
 
 
-前因
+## 前因
 
 前天看到[冯乐乐](https://candycat1992.github.io/)写的[《Unity Shader入门精要》](https://www.amazon.cn/Unity-Shader%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81-%E5%86%AF%E4%B9%90%E4%B9%90/dp/B01G95GMU6/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1464607131&amp;sr=1-1&amp;keywords=unity+shader%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81)，然后在书上看见了她的博客，结果对她的博客网址感到好奇。查了下——结果是可以在GitPages上建立博客的。就用了[Hux Blog](http://huangxuan.me/)和[Candycat Blog](https://candycat1992.github.io/)改了一下，当自己的博客模板了。
 
 想要自己建博客的想法出现在一年前，当时只是单纯想学习下web技术结果被坑了一波。反正马上要毕业找工作了，刚刚好可以把这个建立起来。
 
-你也快来搭建自己的博客吧！
+## 你也快来搭建自己的博客吧！
 
 如果你也想自己搭建一个个人博客，去这里看看吧：
 
@@ -27,6 +27,6 @@ published: true
 
 整个过程都比较简单，作为web小白的[冯乐乐](https://candycat1992.github.io/)就可以建出来，相信对你也不是难事！
 
-后续
+## 后续
 
 我会在这个博客上放自己的简历和项目经历，以后或许会写游戏感悟之类的，至于技术文章什么的emmm……
