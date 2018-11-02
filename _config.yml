@@ -1,6 +1,6 @@
 # Site settings
 title: Icebamboo Blog
-SEOTitle: Icebamboo的博客 | Icebamboo Blog
+SEOTitle: 冰竹的博客 | Icebamboo Blog
 header-img: img/home-bg.jpg
 email: a271093251@live.com
 description: "喜欢设计与实现任何工具"
@@ -68,8 +68,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "真真的学徒，永远怀着大师的心。"
+sidebar-avatar: /img/avatar-sponge.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
