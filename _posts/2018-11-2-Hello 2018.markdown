@@ -5,7 +5,7 @@ subtitle: ' "Hello Blog"'
 author: Icebamboo
 header-img: img/about-bg.jpg
 tags:
-  - 打招呼 - Hello World
+  - 打招呼
 published: true
 ---
 
