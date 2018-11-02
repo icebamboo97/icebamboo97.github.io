@@ -1,9 +1,9 @@
 ---
 published: false
 layout: post
-subtitle: ' "Hello Blog"'
+subtitle: ' "Build Blog"'
 author: Icebamboo
-header-img: img/about-bg.jpg
+header-img: img/post-bg.jpg
 tags:
   - 打招呼
 ---
