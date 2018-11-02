@@ -7,7 +7,7 @@ description: "爱好设计与实现"
 keyword: ""
 url: "icebamboo97.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
-timezone: CN
+#timezone: 
 
 
 # SNS settings
@@ -32,7 +32,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
@@ -62,7 +62,7 @@ livere_uid: MTAyMC80MDcyMy8xNzI0OA==
 
 # Analytics settings
 # Baidu Analytics
-#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: aa720363c3a4c614d2ccd86dc26c37f0
 # Google Analytics
 #ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 #ga_domain: auto
