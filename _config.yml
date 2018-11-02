@@ -1,22 +1,22 @@
 # Site settings
-title: Your Blog
-SEOTitle: 你的博客 | Your Blog
+title: Icebamboo Blog
+SEOTitle: Icebamboo的博客 | Icebamboo Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: ""
+email: a271093251@live.com
+description: "喜欢设计与实现任何工具"
 keyword: ""
-url: "http://huangxuan.me"              # your host, for absolute URL
-baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "icebamboo97.github.io"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
+#weibo_username:     icebamboo97
+#zhihu_username:     icebamboo97
+github_username:    icebamboo97
+#twitter_username:  icebamboo97
+#facebook_username:  icebamboo97
 
 
 
@@ -50,7 +50,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+duoshuo_username: icebamboo
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
