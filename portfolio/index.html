@@ -1,0 +1,169 @@
+---
+layout: default
+title: "Portfolio"
+description: "What I did"
+header-img: "img/portfolio-bg.jpg"
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" id="tag-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<head>
+
+    <style type="text/css">
+        p {
+            font-size: 15px;
+            margin-top: 5px;
+            text-align: justify;
+            line-height: 25px;
+        }
+    </style>
+
+</head>
+
+<!-- Language Selector -->
+<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+    <select onchange="onLanChange(this.options[this.options.selectedIndex].value)">
+        <option value="0" selected> 中文 </option>
+        <option value="1"> English </option>
+    </select>
+    <div class="row">
+        </br>
+    </div>
+</div>
+<!-- Chinese Version -->
+<div class="zh">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>项目</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-group">
+                                
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-md-4 col-xs-12 center">
+                                            <img src="/img/inportfolio/campus-roaming.jpg" class="img-thumbnail">
+                                        </div>
+                                        <div class="col-md-8 col-xs-12 post-container">
+                                            <p><b>校园漫游</b></p>
+                                            <p><i>开发工具：Unity3D, C#</i></p>
+                                            <p>大三业余项目开发</p> 
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                </div>
+
+
+                <!-- <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>文章</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-12 center">
+                                    <img src="/img/in-portfolio/magictoon.jpg" class="img-thumbnail">
+                                </div>
+                                <div class="col-md-8 col-xs-12 post-container">
+                                    <p>
+                                        <b>MagicToon: A 2D-to-3D Creative Cartoon Modeling System with Mobile AR</b></br>
+                                        冯乐乐，杨旭波，肖双九</br>
+                                        <i>IEEE Virtual Reality 2017</i>
+                                    </p>
+                                    <p>本文提出了MagicToon, 一个基于移动增强现实环境的交互式建模系统，让儿童可以从他们绘制的二维手绘图中创建三维卡通场景。我们的系统由两部分组成：一个二维到三维的自动化建模系统，以及一个交互式的模型编辑系统。结果显示，相比于传统的基于草图的建模系统，本系统更加易于使用；相比于增强现实绘本系统来说，本系统不局限于提前制作好的三维模型，可以更加充分地发挥儿童的创造力。</p>
+                                    <a href="http://candycat1992.github.io/2017/01/18/magictoon/" class="btn btn-default btn-sm" role="button">Project Page</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div> -->
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- English Version -->
+<div class="en">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                
+                    <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h1>Projects</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="list-group">
+                                        
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-md-4 col-xs-12 center">
+                                                    <img src="/img/inportfolio/campus-roaming.jpg" class="img-thumbnail">
+                                                </div>
+                                                <div class="col-md-8 col-xs-12 post-container">
+                                                    <p><b>Campus roaming</b></p>
+                                                    <p><i> Development tools:Unity3D, C#</i></p>
+                                                    <p>Amateur project development in junior year.<b>。</b></p> 
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                        </div>
+        
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    function onLanChange(index) {
+        if (index == 0) {
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        } else {
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        }
+    }
+    onLanChange(0);
+</script>
