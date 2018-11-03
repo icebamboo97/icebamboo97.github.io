@@ -7,7 +7,8 @@ author: Icebamboo
 headr-img: img/
 header-img: img/post-bg.jpg
 tags:
-  - Game Design - Book
+  - Game Design
+  - Book
 ---
 > “找到一个快速创建游戏剧本的方法 《Lvel Up！The Guide to Great Video Game Design》”
 
