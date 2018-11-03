@@ -24,3 +24,4 @@ tags:
 ![《生化奇兵》]({{site.baseurl}}/img/inpost/bioshock.jpg)
 
 - 仔细想想那些儿童读物吧！《野兽家园》《海蒂》和《纳尼亚传奇》这样经典的儿童读物里面充满了复杂的主题、人物互动和感情。还有就是记住寓教于乐，不要怕在娱乐的同时普及点知识。
+![narnia.jpg]({{site.baseurl}}/img/inpost/narnia.jpg)
