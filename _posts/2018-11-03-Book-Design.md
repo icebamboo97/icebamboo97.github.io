@@ -6,6 +6,7 @@ author: Icebamboo
 header-img: img/post-bg.jpg
 tags:
   - 书籍
+title: 游戏设计之道
 ---
 > “看书非常有用啊”
 
