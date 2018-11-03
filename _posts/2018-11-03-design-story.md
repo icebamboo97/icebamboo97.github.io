@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: 如何快速创作游戏剧本
 subtitle: '"How to Create a Game Story Quickly"'
