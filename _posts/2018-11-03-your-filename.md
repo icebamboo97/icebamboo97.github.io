@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+title: 如何快速创作游戏剧本
+subtitle: '"How creta"'
 ---
 > “找到一个快速创建游戏剧本的方法 《Lvel Up！The Guide to Great Video Game Design》”
 ​
