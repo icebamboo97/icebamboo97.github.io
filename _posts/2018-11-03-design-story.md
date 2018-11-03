@@ -54,3 +54,5 @@ tags:
 		这是剧本的基础格式，可以使用剧本写作程序：Final Draft、Movie Magic Screenwriter。
         
 ### 第六步
+
+读一读对话。大声读出来。
