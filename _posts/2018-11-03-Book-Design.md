@@ -1,7 +1,7 @@
 ---
 published: false
 layout: post
-subtitle: ' "Game Design"'
+subtitle: '"Game Design"'
 author: Icebamboo
 header-img: img/post-bg.jpg
 tags:

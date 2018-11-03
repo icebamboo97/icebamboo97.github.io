@@ -1,13 +1,13 @@
 ---
-layout:     post
-title:      终于搭建好了博客
-subtitle:   "Build Blog"
-author:     Icebamboo
+published: false
+layout: post
+title: 终于搭建好了博客
+subtitle: "Build Blog"
+author: Icebamboo
 header-img: img/post-bg.jpg
 tags:
-    - 打招呼
+  - 打招呼
 ---
-
 > “又弄了一晚上”
 
   
