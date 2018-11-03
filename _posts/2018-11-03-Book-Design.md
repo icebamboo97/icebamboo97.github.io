@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 subtitle: '"Game Design"'
 author: Icebamboo

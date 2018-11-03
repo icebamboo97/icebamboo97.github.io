@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: 终于搭建好了博客
 subtitle: "Build Blog"
