@@ -1,6 +1,7 @@
 ---
 published: false
 layout: post
+title: 博客名字
 subtitle: ' "Game Design"'
 author: Icebamboo
 header-img: img/post-bg.jpg
