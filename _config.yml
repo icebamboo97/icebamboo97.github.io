@@ -3,7 +3,7 @@ title: Icebamboo Blog
 SEOTitle: Icebamboo的博客 | Icebamboo Blog
 header-img: img/home-bg.jpg
 email: a271093251@live.com
-description: "爱好设计与实现"
+description: "爱好游戏与设计"
 keyword: ""
 url: "icebamboo97.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
@@ -71,7 +71,7 @@ ba_track_id: aa720363c3a4c614d2ccd86dc26c37f0
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "只需要前进就好了呀(~ˉ-ˉ~；)..."
+sidebar-about-description: "只需要前进就好了呀:)..."
 sidebar-avatar: /img/avatar-sponge.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -88,10 +88,7 @@ friends: [
         title: "YouYou",
         href: "#"
     },{
-        title: "Game",
-        href: "#"
-    },{
-        title: "Ball",
-        href: "#"
+        title: "Binjiang",
+        href: "http://www.drinkwater.top/"
     }
 ]
