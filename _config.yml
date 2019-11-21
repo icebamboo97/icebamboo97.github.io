@@ -89,6 +89,7 @@ friends: [
         href: "#"
     },{
         title: "Binjiang",
-        href: "http://www.drinkwater.top/"
+        href: "http://www.drinkwater.top/",
+        target: "_blank"
     }
 ]
